@@ -62,15 +62,15 @@ The project delivered a fully interactive Power BI report containing three dashb
 
 #### 📊 Screenshots of the dashboards and queries are inserted here for illustration.
 ##### *Dashboard:*
-![Sales Overview](./images/SalesOverview.png)
-![Costumer Details](./images/CostumerDetails.png)
-![Product Details](./images/ProductDetails.png)
+![Sales Overview](./Images/Sales_Overview.png)
+![Costumer Details](./Images/Costumer_Details.png)
+![Product Details](./Images/Product_Details.png)
 
 ##### *Queries:*
-![Calendar Query](./images/CalendarQuery.png)
-![Product Query](./images/ProductQuery.png)
-![Costumer Query](./images/CostumerQuery.png)
-![Sales Query](./images/SalesQuery.png)
+![Calendar Query](./Images/Calendar_Query.png)
+![Product Query](./Images/Product_Query.png)
+![Costumer Query](./Images/Costumer_Query.png)
+![Sales Query](./Images/Sales_Query.png)
 
 
 
