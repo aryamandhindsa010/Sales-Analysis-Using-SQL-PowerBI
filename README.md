@@ -11,10 +11,7 @@ The Sales Manager requested to move from static internet sales reports to intera
 4. Transformed and modeled data using Power Query.
 5. Built **dynamic dashboards** for Sales, Customers, and Products with budget comparison.
 
-
-
 #### #️⃣Next Steps: 
-
 To get data by **Composite Mode**: Try to connect the fact tables using direct Query or Live Connection to always get the latest data and using import for dimension tables like Calendar for optimizing dashboard and to run **Time Intelligence** functions without errors
 
 
@@ -22,38 +19,28 @@ To get data by **Composite Mode**: Try to connect the fact tables using direct Q
 ## 📄Business Demand
 
 The Sales Manager requested a shift from static internet sales reports to interactive visual dashboards that allow tracking of sales by product, customer, and over time. The dashboards should include **filtering options** for salespersons, products, and customers, provide **comparison**s of actual sales against the 2025 budget, and incorporate two years of **historical data** for analysis.
-
-*Email Screenshot:*
-![Email From Manager](./images/BusinessRequestEmail.png)
-
-
-
+<table align="center">
+  <tr>
+    <td align="center"><img src="./Images/Business_Request_Email.png" alt="Email From Manager" width="60%"/></td>
+    <td align="center"><img src="./Images/User_Story.png" alt="User Story" width="100%"/></td>
+  </tr>
+</table>
 
 ## 🧑‍🏭Methodology
 
 This project applied a structured data analytics approach using SQL Server 2021 for cleaning and **dynamically querying** two years of sales data. Processed results were exported to CSV and transformed in Power BI’s Power Query for modeling and integration with the 2025 Budget Excel file. A **star schema** enabled dynamic dashboards for sales, customer, and product insights.
 
-
-
 ### 💾Dataset Used-
 
 &nbsp;  [AdventureWorksDW](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorksDW2022.bak) (Data Warehouse(DW) data is for data warehousing workloads.)
-
-
+###### Cannot upload dataset as it is above the limit of 25 MB.
 
 ### 🧰Tools Used-
-
 **Microsoft SQL Server 2021** – Data cleaning, dynamic querying (AS, LEFT JOIN, CASE WHEN, ISNULL, GETDATA, column concatenation, comments)
-
 **Power BI** – Data transformation, modeling, dashboard creation (MEASURES, CALCULATED COLUMNS, Multiple Dashboards)
-
 **Excel** – Budget 2025 dataset cleaning (Table creation)
 
-
-
-📂 For further details, including raw queries, transformed dataset csv files, and the Power BI file, please check the files available in the project repository.
-
-
+###### 📂 For further details, including raw queries, transformed dataset csv files, and the Power BI file, please check the files available in the project repository.
 
 ## 📜Result
 
@@ -67,16 +54,18 @@ The project delivered a fully interactive Power BI report containing three dashb
 ![Product Details](./Images/Product_Details.png)
 
 ##### *Queries:*
-![Calendar Query](./Images/Calendar_Query.png)
-![Product Query](./Images/Product_Query.png)
-![Costumer Query](./Images/Costumer_Query.png)
-![Sales Query](./Images/Sales_Query.png)
+<table align="center">
+  <tr>
+    <td align="center"><img src="./Images/Calendar_Query.png" alt="Calendar Query" width="400"/></td>
+    <td align="center"><img src="./Images/Product_Query.png" alt="Product Query" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./Images/Costumer_Query.png" alt="Customer Query" width="400"/></td>
+    <td align="center"><img src="./Images/Sales_Query.png" alt="Sales Query" width="400"/></td>
+  </tr>
+</table>
+
+[Click here to get to the query files](./SQL_Queries/)
 
 
-
-#### 📂 All related queries, datasets, and the Power BI file can be found in the project repository.
-
-
-
-
-
+###### 📂 All related queries, CSV files, and the Power BI file can be found in the project repository.
