@@ -36,8 +36,8 @@ This project applied a structured data analytics approach using SQL Server 2021 
 ###### Cannot upload dataset as it is above the limit of 25 MB.
 
 ### 🧰Tools Used-
-**Microsoft SQL Server 2021** – Data cleaning, dynamic querying (AS, LEFT JOIN, CASE WHEN, ISNULL, GETDATA, column concatenation, comments)
-**Power BI** – Data transformation, modeling, dashboard creation (MEASURES, CALCULATED COLUMNS, Multiple Dashboards)
+**Microsoft SQL Server 2021** – Data cleaning, dynamic querying (AS, LEFT JOIN, CASE WHEN, ISNULL, GETDATA, column concatenation, comments).\
+**Power BI** – Data transformation, modeling, dashboard creation (MEASURES, CALCULATED COLUMNS, Multiple Dashboards).\
 **Excel** – Budget 2025 dataset cleaning (Table creation)
 
 ###### 📂 For further details, including raw queries, transformed dataset csv files, and the Power BI file, please check the files available in the project repository.
